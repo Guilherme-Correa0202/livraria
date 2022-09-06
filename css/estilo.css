@@ -138,4 +138,27 @@ button{
 }
 
 }
-
+@media (min-width: 768px){
+   .destaques li{
+      width: 33%;
+      float: left;
+      text-align: center;
+      list-style: none;
+      padding: 20px 0;
+   }
+   #topo h1{
+      font-size: 50px;
+   }
+}
+@media (min-width: 1000px){
+   .destaques li{
+      width: 20%;
+      float: left;
+      text-align: center;
+      list-style: none;
+      padding: 20px 0;
+   }
+   #topo h1{
+      font-size: 80px;
+   }
+}
